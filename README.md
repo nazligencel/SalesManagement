@@ -49,7 +49,7 @@ In the user settings section, the user can create a new password by changing the
 ## Demo Account
 | <img src ="https://github.com/nazligencel/java-desktop-technical-service/blob/main/images/mail.png" width ="20px" height = "20px" style="float:left" > E-Mail | <img src ="https://github.com/nazligencel/java-desktop-technical-service/blob/main/images/password.png" width ="20px" height = "20px" style="float:left" > Password | 
 | :------------: | :------------: | 
-|admin@email.com| 12345 |
+|admin@email.com| 1234 |
 
 
 **Name:** Nazlı  <br>
