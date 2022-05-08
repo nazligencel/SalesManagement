@@ -1,0 +1,96 @@
+JFDML JFormDesigner: "7.0.5.4.420" Java: "11.0.13" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq t {space :::x, comp label4:::p::p, space :::p, comp label5:::p::p, space :p:158:p}, seq t {par t {seq {space :::x, comp lblError:::p:280:p}, seq {space :p:93:p, comp label6:::p:170:p, space :::x, par l {comp btnlogin:::p:280:p, comp txtEmail:::p:280:p}}}, space :p:87:p}, seq l {par l {seq {space :p:65:p, comp label9:::p:218:p}, seq l {space :::p, comp label1:::p:277:p}}, par l {seq {par l {seq {space :p:201:p, comp label2:::p:62:p}, seq l {space :p:93:p, comp txtPassword:::p:280:p}, seq l {space :p:93:p, comp btnForgotPassword:::p:152:p}}, space :0:0:x}, seq t {space ::184:x, comp label3:::p:111:p, space :p:165:p}}}}"
+			"$verticalGroup": "par l {seq {space :p:49:p, par l {seq {comp label1:::p:267:p, space :::p, comp label9:::p::p, space :::p, comp label6:::p::p}, seq {par b {comp label5::b:p:31:p, comp label4::b:p:31:p}, space :p:27:p, comp label2:::p::p, space :p:18:p, comp txtEmail:::p:46:p, space s:::p, comp label3:::p:28:p, space :p:18:p, comp txtPassword:::p:46:p, space :p:18:p, comp btnForgotPassword:::p:30:p, space u:::p, comp btnlogin:::p:46:p}}, space s:::p, comp lblError:::p:28:p, space ::56:x}}"
+		} ) {
+			name: "this"
+			"iconImage": sfield com.jformdesigner.model.FormObject NULL_VALUE
+			"defaultCloseOperation": 2
+			addEvent( new FormEvent( "java.awt.event.WindowListener", "windowClosing", "thisWindowClosing", true ) )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "txtEmail"
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 2, false )
+				addEvent( new FormEvent( "java.awt.event.KeyListener", "keyReleased", "txtEmailKeyReleased", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "btnlogin"
+				"text": "LOG-IN"
+				"font": new java.awt.Font( "Segoe UI", 1, 23 )
+				"foreground": sfield java.awt.Color white
+				"background": new java.awt.Color( 255, 154, 47, 255 )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnlogin", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "E-Mail "
+				"font": new java.awt.Font( "Segoe UI", 1, 17 )
+				"background": sfield java.awt.Color lightGray
+				"foreground": sfield java.awt.Color darkGray
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": "Password"
+				"font": new java.awt.Font( "Segoe UI", 1, 17 )
+				"background": sfield java.awt.Color lightGray
+				"foreground": sfield java.awt.Color darkGray
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label4"
+				"text": "WEL"
+				"foreground": new java.awt.Color( 255, 149, 31, 255 )
+				"font": new java.awt.Font( "Segoe UI", 1, 28 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label5"
+				"text": "COME"
+				"foreground": new java.awt.Color( 62, 89, 223, 255 )
+				"font": new java.awt.Font( "Segoe UI", 1, 28 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label6"
+				"text": "Best Slogan Here"
+				"foreground": sfield java.awt.Color darkGray
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 65536, 8, false )
+				"background": sfield java.awt.Color lightGray
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/P-10.jpg" )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label9"
+				"text": "TOOLSTORE"
+				"font": new java.awt.Font( "Segoe UI", 1, 37 )
+				"foreground": sfield java.awt.Color darkGray
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "lblError"
+				"foreground": new java.awt.Color( 204, 0, 0, 255 )
+				"horizontalAlignment": 0
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 1, 1, false )
+			} )
+			add( new FormComponent( "javax.swing.JPasswordField" ) {
+				name: "txtPassword"
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 2, false )
+				addEvent( new FormEvent( "java.awt.event.KeyListener", "keyReleased", "txtPasswordKeyReleased", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "btnForgotPassword"
+				"text": "Forgot password ?"
+				"foreground": sfield java.awt.Color darkGray
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 65538, 3, false )
+				"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				"horizontalAlignment": 2
+				"background": sfield java.awt.Color lightGray
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnResetPassword", true ) )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 50 )
+			"size": new java.awt.Dimension( 745, 545 )
+		} )
+	}
+}
